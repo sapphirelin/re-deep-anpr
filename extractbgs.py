@@ -21,7 +21,7 @@
 #     USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 """
-製作背景圖片 (for generate)
+製作測試資料的背景圖片
 
 """
 
@@ -97,4 +97,3 @@ if __name__ == "__main__":
         extract_backgrounds(os.getcwd()+"\\"+archive_name)
     else:
         print("找不到壓縮檔 (archive_name error)")
-

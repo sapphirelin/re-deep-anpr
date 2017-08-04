@@ -248,7 +248,7 @@ def train(learn_rate, report_steps, batch_size, initial_weights=None):
 
         except KeyboardInterrupt:
             last_weights = [p.eval() for p in params]
-            numpy.savez("GPUweights.npz", *last_weights)
+            numpy.savez("weights.npz", *last_weights)
             return last_weights
         
         
